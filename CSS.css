@@ -1,0 +1,171 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+nav{
+    background-color:
+    height:80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+.nav-h1{
+    font-weight:800px;
+    font-size:45px;;
+}
+span{
+    color:orangered;
+}
+
+nav > ul{
+    list-style: none;
+    display:flex;
+    
+    
+}
+    ul > li > a{
+    text-decoration:none;
+    color:black;
+    padding:20px;
+    
+}
+ul li a:hover{
+    color:whitesmoke;
+}
+ button{
+    padding:7px;
+    background-color:orangered;
+    border:white;
+    color:white;
+    border-radius: 6px;
+}
+.banner{
+    padding:40px 37px 0px 230px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.nav-img{
+    height:550px;
+}
+.banner-div1{
+    max-width: 400px;
+}
+.banner-greting{
+  font-size:30px; 
+  font-weight:normal; 
+}
+.banner-title{
+    font-size:50px;
+}
+.banner-div1 >p{
+    margin-top:15px;
+}
+
+.btn-primary ,.btn{
+    margin-top:15px;
+}
+
+header{
+    background-color:bisque;
+    background-image: url('images/header_bg.png'),url('images/developer.png') ;
+    background-repeat: no-repeat;
+    background-position:right bottom,left top;
+    height:650px;
+}
+/* main section start */
+main{
+    max-width: 950px;
+    margin:0px auto;
+}
+ .about{ 
+    padding:100px;
+    width:940px;
+    height:550px;
+    margin:80px 0px;
+    background-color: rgb(225, 238, 238);
+    border-radius: 8px;
+    box-shadow:2px 2px 4px gray;
+}
+.section-title{
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+
+    line-height: normal;
+    color:rgb(7, 7, 7);
+    position:relative;
+}
+
+.about-para{
+    text-align:center;
+    margin-top:15px;
+}
+.info-container{
+    display:flex;
+    justify-content: space-around;
+    padding:30px 0px;
+}
+.about-info{
+    text-align:center;
+    line-height: 30px;
+}
+
+.what-div{
+    text-align:center;
+    padding:0px 100px;
+}
+.what-div1{
+    display:flex;
+    justify-content: space-around;
+    padding:50px 0px;
+}
+.what-div2{
+    width: 200px;
+    height: 280px; 
+    background-color: rgb(241, 241, 228);
+    padding:15px 30px;
+    text-align:center;
+
+}
+.what-para{
+    font-size: 13px;;
+}
+/* resumy section start */
+.resumy-contain{
+    
+    display:flex;
+    gap:150px 
+
+}
+.resumy-column{
+    width:400px;
+    margin-top:100px;
+   }
+.resumy-column2{
+    width:400px;
+    margin-top:100px;
+
+}
+.resumy-item{
+    margin-top:15px;
+    padding:20px 0px;
+}
+.resumy{
+    margin-top:100px;
+}
+.resumy-btn{
+text-align:center;
+margin:20px 450px;
+padding:10px;
+}
